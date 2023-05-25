@@ -1,0 +1,325 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.936);
+}
+
+h3 {
+    text-align: center;
+}
+
+.title_kid {
+    float: left;
+}
+
+.page_titles {
+    text-align: left;
+    background-color: mediumseagreen;
+    color: rgb(5, 39, 25);
+    height: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banners {
+    text-align: center;
+}
+
+.footerImg {
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.video {
+    width: 400px;
+    height: fit-content;
+    object-fit: contain;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.product_table_title {
+    text-align: center;
+    color: rgb(70, 102, 206);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+tr.product_table_header {
+    text-align: center;
+    color: rgb(199, 10, 139);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.input1 {
+    margin-left: 35px;
+}
+
+.input2 {
+    margin-left: 37px;
+}
+
+.input3 {
+    margin-left: 17px;
+}
+
+.mailus {
+    text-align: center;
+    font-size: large;
+}
+
+.contactform {
+    text-align: center;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Index(home) Page - Mission Statement */
+.mission_container {
+    top: 15px;
+    margin: auto;
+    position: relative;
+    width: 700px;
+    height: 500px;
+}
+
+.text_in_image_home {
+    position: absolute;
+    top: 102px;
+    left: 90px;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
+
+.image_in_image_logo {
+    position: absolute;
+    top: 410px;
+    left: 48%;
+}
+
+.image_in_image_fox {
+    position: absolute;
+    top: 340px;
+    left: -12%;
+}
+
+.about_me_too_image {
+    position: absolute;
+    top: -1%;
+    left: 104%;
+    transform: rotate(-30deg);
+}
+
+.about_me_image {
+    position: absolute;
+    top: -18%;
+    left: 110%;
+    transform: rotate(-50deg);
+}
+
+/*About Page Main Block*/
+.about_container {
+    top: 20px;
+    margin: auto;
+    position: relative;
+    width: 760px;
+    height: 900px;
+}
+
+.text_in_image_about {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
+
+.flowerpot_about {
+    position: absolute;
+    top: 375px;
+    left: 25px;
+}
+
+/* Reviews Page - Main Container*/
+.reviews_main_container {
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+/*Review 1 nested within Main container*/
+.review1_image_in_container {
+    float: left;
+    text-align: center;
+    position: inherit;
+    width: 300px;
+    height: 350px;
+}
+
+.review1_in_container {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
+
+/*Review 2 nested within Main container*/
+.review2_image_in_container {
+    float: left;
+    text-align: center;
+    position: inherit;
+    width: 300px;
+    height: 350px;
+}
+
+.review2_in_container {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
+
+/*Review 3 nested within Main container*/
+.review3_image_in_container {
+    float: left;
+    position: inherit;
+    width: 300px;
+    height: 350px;
+}
+
+.review3_in_container {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
+
+.reviews_butterfly {
+    position: absolute;
+    top: -42%;
+    left: 112%;
+    /*transform: rotate(-30deg);*/
+}
+
+.reviews_caterpillar_ledge {
+    position: absolute;
+    top: -8%;
+    left: 89px;
+}
+
+.reviews_caterpillar {
+    position: absolute;
+    top: -19%;
+    left: 120px;
+}
+
+.fnameError,
+.lnameError,
+.emailaddError {
+    color: rgb(0, 92, 128);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: none;
+    float: left;
+    border: none;
+    font-size: 10px;
+    margin-left: 150px;
+}
+
+
+
+/* Navigation Bar */
+.webnav {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    top: 43px;
+    width: 500px;
+    margin-left: 90px;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumseagreen;
+    position: absolute;
+    font: bolder;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(243, 215, 146);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2f9163;
+}
+
+
+.parentproductsContainer {
+    border-style: solid;
+    text-align: center;
+}
+
+.productsContainer {
+    background-color: lightcyan;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+.clipartContainer {
+    background-color: lightgoldenrodyellow;
+    margin-top: -40px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.demoContainer {
+    background-color: lightskyblue;
+    margin-top: -60px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
