@@ -80,7 +80,7 @@ tr.product_table_header {
     margin-left: 17px;
 }
 
-.mailus {
+.mailme {
     text-align: center;
     font-size: large;
 }
@@ -93,7 +93,7 @@ tr.product_table_header {
 }
 
 /* Index(home) Page - Mission Statement */
-.mission_container {
+.index_container {
     top: 15px;
     margin: auto;
     position: relative;
@@ -323,3 +323,59 @@ li a:hover {
     margin-right: auto;
     padding: 20px;
 }
+
+
+/*Index page, My Projects addition at end of page */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .project-card p {
+    color: #777;
+  }
+
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .project-card a:hover {
+    color: #007bff;
+  }
