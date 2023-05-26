@@ -7,7 +7,7 @@ h3 {
     text-align: center;
 }
 
-.title_kid {
+.title_left {
     float: left;
 }
 
@@ -256,39 +256,38 @@ tr.product_table_header {
 }
 
 
-
-/* Navigation Bar */
-.webnav {
-    text-align: left;
-}
-
-ul {
-    list-style-type: none;
-    top: 43px;
-    width: 500px;
-    margin-left: 90px;
+  /* CSS styles for the navigation bar */
+  .webnav {
+    background-color: #333;
+    padding: 10px;
+ }
+ 
+ .webnav ul {
+    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: mediumseagreen;
-    position: absolute;
-    font: bolder;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: rgb(243, 215, 146);
-    text-align: center;
-    padding: 14px 16px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .webnav li {
+    margin-right: 20px;
+ }
+ 
+ .webnav li:last-child {
+    margin-right: 0;
+ }
+ 
+ .webnav a {
+    color: #fff;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color: #2f9163;
-}
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+ }
+ 
+ .webnav a:hover {
+    color: #007bff;
+ }
 
 
 .parentproductsContainer {
