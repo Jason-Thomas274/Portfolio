@@ -1,6 +1,8 @@
+/* Global Styles */
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(255, 255, 255, 0.936);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -92,38 +94,38 @@ tr.product_table_header {
     margin-right: auto;
 }
 
-  /* CSS styles for the navigation bar */
-  .webnav {
+/* CSS styles for the navigation bar */
+.webnav {
     background-color: #333;
     padding: 10px;
- }
- 
- .webnav ul {
+}
+
+.webnav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: center;
- }
- 
- .webnav li {
+}
+
+.webnav li {
     margin-right: 20px;
- }
- 
- .webnav li:last-child {
+}
+
+.webnav li:last-child {
     margin-right: 0;
- }
- 
- .webnav a {
+}
+
+.webnav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
- }
- 
- .webnav a:hover {
+}
+
+.webnav a:hover {
     color: #007bff;
- }
+}
 
 /* Index(home) Page - Mission Statement */
 .index_container {
@@ -169,7 +171,7 @@ tr.product_table_header {
     transform: rotate(-50deg);
 }
 
-/*About Page Main Block*/
+/* About Page Main Block */
 .about_container {
     top: 20px;
     margin: auto;
@@ -191,88 +193,6 @@ tr.product_table_header {
     position: absolute;
     top: 375px;
     left: 25px;
-}
-
-/* Reviews Page - Main Container*/
-.reviews_main_container {
-    margin-left: auto;
-    margin-right: auto;
-    top: 20px;
-    position: relative;
-    width: 1500px;
-    height: 500px;
-}
-
-/*Review 1 nested within Main container*/
-.review1_image_in_container {
-    float: left;
-    text-align: center;
-    position: inherit;
-    width: 300px;
-    height: 350px;
-}
-
-.review1_in_container {
-    position: absolute;
-    top: 100px;
-    left: 130px;
-    font-size: large;
-    color: rgba(0, 0, 0, 0.616);
-    text-align: center;
-}
-
-/*Review 2 nested within Main container*/
-.review2_image_in_container {
-    float: left;
-    text-align: center;
-    position: inherit;
-    width: 300px;
-    height: 350px;
-}
-
-.review2_in_container {
-    position: absolute;
-    top: 100px;
-    left: 130px;
-    font-size: large;
-    color: rgba(0, 0, 0, 0.616);
-    text-align: center;
-}
-
-/*Review 3 nested within Main container*/
-.review3_image_in_container {
-    float: left;
-    position: inherit;
-    width: 300px;
-    height: 350px;
-}
-
-.review3_in_container {
-    position: absolute;
-    top: 100px;
-    left: 130px;
-    font-size: large;
-    color: rgba(0, 0, 0, 0.616);
-    text-align: center;
-}
-
-.reviews_butterfly {
-    position: absolute;
-    top: -42%;
-    left: 112%;
-    /*transform: rotate(-30deg);*/
-}
-
-.reviews_caterpillar_ledge {
-    position: absolute;
-    top: -8%;
-    left: 89px;
-}
-
-.reviews_caterpillar {
-    position: absolute;
-    top: -19%;
-    left: 120px;
 }
 
 .fnameError,
@@ -299,7 +219,6 @@ tr.product_table_header {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-
 }
 
 .clipartContainer {
@@ -321,58 +240,56 @@ tr.product_table_header {
     padding: 20px;
 }
 
-
-/*Index page, My Projects addition at end of page */
+/* Index page, My Projects addition at the end of the page */
 .container {
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 40px;
-  }
+    padding: 20px;
+}
 
-  h1 {
+h1 {
     text-align: relative;
     font-size: 32px;
     margin-bottom: 20px;
     color: #333;
-  }
+}
 
-  .project-list {
+.project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-  }
+}
 
-  .project-card {
-    background-color: #fff;
-    border-radius: 8px;
+.project-card {
+    background-color: #f5f5f5;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
-  }
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .project-card:hover {
+.project-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .project-card h2 {
+.project-card h2 {
     font-size: 24px;
+    margin-top: 0;
+}
+
+.project-card p {
     margin-bottom: 10px;
-    color: #333;
-  }
+}
 
-  .project-card p {
-    color: #777;
-  }
-
-  .project-card a {
+.project-card a {
     display: inline-block;
-    margin-top: 10px;
-    color: #333;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
-  }
+    border-radius: 3px;
+}
 
-  .project-card a:hover {
-    color: #007bff;
-  }
+.project-card a:hover {
+    background-color: #45a049;
+}

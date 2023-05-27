@@ -27,37 +27,31 @@
          <img src="media/images/fslogo/fslogo2.png" alt="jason thomas" width="100" height="100">
       </div>
       <br>
-      <!--Beginning of Contact Form-->
+      <!-- Beginning of Contact Form -->
       <div class="contactform">
          <form name="basic_form" onsubmit="return contactButton()" class="basic_form">
             <div>
                <label for="fname" class="form_title">First Name:</label>
-               <input class="input1" type="text" id="fname" name="firstname" maxlength="30">
-               <div class="fnameError" id="fnameError">
-                  enter valid first name
-               </div>
+               <input class="input1" type="text" id="fname" name="firstname" maxlength="30" required>
+               <div class="fnameError" id="fnameError">Enter a valid first name</div>
             </div>
             <br>
             <div>
                <label for="lname" class="form_title">Last Name:</label>
-               <input class="input2" type="text" id="lname" name="lastname" maxlength="30">
-               <div class="lnameError" id="lnameError">
-                  enter valid last name
-               </div>
+               <input class="input2" type="text" id="lname" name="lastname" maxlength="30" required>
+               <div class="lnameError" id="lnameError">Enter a valid last name</div>
             </div>
             <br>
             <div>
                <label for="emailadd" class="form_title">Email Address:</label>
-               <input class="input3" type="text" id="emailadd" name="emailaddress" maxlength="30">
-               <div class="emailaddError" id="emailaddError">
-                  enter valid email
-               </div>
+               <input class="input3" type="email" id="emailadd" name="emailaddress" maxlength="30" required>
+               <div class="emailaddError" id="emailaddError">Enter a valid email address</div>
             </div>
             <br>
             <div>
                <label for="custfeedback" class="form_title">Add a message here!</label>
                <br>
-               <textarea class="text1" name="customerfeedback" id="custfeedback" rows="8" cols="30" placeholder="Enter text here..."></textarea>
+               <textarea class="text1" name="customerfeedback" id="custfeedback" rows="8" cols="30" placeholder="Enter text here..." required></textarea>
             </div>
             <br>
             <div class="submitButton">
@@ -66,7 +60,7 @@
             </div>
          </form>
       </div>
-      <!--End of Contact Form-->
+      <!-- End of Contact Form -->
       <div class="footerImg">
          <img src="media/images/contact/thankyou.jpg" alt="thank you" width="600" height="400">
       </div>
