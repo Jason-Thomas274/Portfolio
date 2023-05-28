@@ -151,9 +151,9 @@ tr.product_table_header {
     left: 48%;
 }
 
-.image_in_image_fox {
+.image_in_image_caverns {
     position: absolute;
-    top: 340px;
+    top: 290px;
     left: -12%;
 }
 
@@ -189,7 +189,7 @@ tr.product_table_header {
     text-align: center;
 }
 
-.flowerpot_about {
+.picture_me {
     position: absolute;
     top: 375px;
     left: 25px;
