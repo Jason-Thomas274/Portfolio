@@ -15,7 +15,7 @@ h3 {
 
 .page_titles {
     text-align: left;
-    background-color: mediumseagreen;
+    background-color: rgb(0, 0, 0);
     color: rgb(5, 39, 25);
     height: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -273,6 +273,7 @@ h1 {
 }
 
 .project-card h2 {
+    color: rgb(49, 39, 3);
     font-size: 24px;
     margin-top: 0;
 }
@@ -284,12 +285,12 @@ h1 {
 .project-card a {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: #7f6005;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
 }
 
 .project-card a:hover {
-    background-color: #45a049;
+    background-color: #ca8803;
 }
