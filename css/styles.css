@@ -25,12 +25,12 @@ h3 {
     text-align: center;
 }
 
-.footerImg {
+/* .footerImg {
     width: 600px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .textcenter {
     text-align: center;
@@ -138,10 +138,10 @@ tr.product_table_header {
 
 .text_in_image_home {
     position: absolute;
-    top: 102px;
+    top: -2px;
     left: 90px;
     font-size: xx-large;
-    color: rgba(0, 0, 0, 0.616);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
