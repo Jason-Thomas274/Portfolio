@@ -8,4 +8,6 @@ Adding additional JavaScript for increased interactivity
 
 Changing styling to match the look i'm going for
 
-Add to pages
+Add to gpages
+
+Tailwinds integration
