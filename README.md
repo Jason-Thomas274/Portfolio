@@ -2,6 +2,6 @@
 My Portfolio
 
 # Updates
-Tailwinds integration
+Removed tailwinds integration
 
 Post to pages
