@@ -10,6 +10,7 @@ function contactButton() {
     var errorCountL = 0;
     var errorCountE = 0;
 
+// Validation for contact form
     if (fname === "" || !validChar.test(fname)) {
         fnameError.style.display = "block";
         alert("Please enter your first name with no numbers or special characters");
@@ -40,11 +41,13 @@ function contactButton() {
     }
 }
 
+// Validation for email address
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
 }
 
+// Validation for basic form
 var basicForm = document.querySelector('.basic_form');
 basicForm.addEventListener('submit', function(e) {
     e.preventDefault();
