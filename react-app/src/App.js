@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HomeImage from './components/HomeImage';
 import AboutImages from './components/AboutImages';
 import Portfolio from './components/Portfolio';
+import About from './components/About'; // Import the new About component you created
 import './index.css';
 
 class App extends React.Component {
