@@ -1,9 +1,8 @@
 # Portfolio
 In progress converting to React and Bootstrap
 
-# Framework
-React
-Bootstrap
+# Frameworks
+React, Bootstrap
 
 # Frontend
 HTML5
@@ -12,23 +11,5 @@ JavaScript
 
 # Backend
 
-# File structure
-portfolio/
-|── react-app
-│   └── components
-│
-├── about.html
-├── contact.html
-├── hobbies.html
-├── index.html
-├── README.md
-├── test.html
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   └── js.js
-│
-└── media/
-    └── (media files)
+# Changes
+Transitioned to React framework, removed tailwinds integration
