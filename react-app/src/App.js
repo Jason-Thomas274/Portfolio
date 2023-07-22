@@ -1,14 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import HomeImage from './components/HomeImage';
 import AboutImages from './components/AboutImages';
 import Portfolio from './components/Portfolio';
-import About from './components/About'; // Import the new About component you created
+import About from './components/About';
+import Contact from './components/Contact';
 import './index.css';
 
-class App extends React.Component {
-  render() {
-    return (
+// Main component, serves as the root component of the application
+// Includes other components and acts as the container for the entire app's UI structure
+function App() {
+  return (
+    <Router>
       <div>
         <header>
           <div className="page_titles" id="webTitle">
@@ -16,9 +20,9 @@ class App extends React.Component {
           </div>
           <nav className="webnav">
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
@@ -48,9 +52,13 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;
