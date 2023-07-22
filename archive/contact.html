@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Contact</title>
+      <meta name="description" content="Contact Me">
+      <meta name="author" content="Jason Thomas">
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <div class="page_titles" id="webTitle">
+         <h1>Contact</h1>
+      </div>
+      <div class="webnav">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+      <br>
+      <div class="mailme">
+         <h2>Reach out to me!</h2>
+         <img src="media/images/cutedogmailbox.jpg" alt="jason thomas" width="140" height="100">
+         <p>Email or Contact Form:</p>
+            <a href="mailto:jasonthomas@myemail.com">JasonThomas@myemail.com</a>
+         </p>
+      </div>
+      <br>
+      <!-- Beginning of Contact Form -->
+      <div class="contactform">
+         <form name="basic_form" onsubmit="return contactButton()" class="basic_form">
+            <div>
+               <label for="fname" class="form_title">First Name:</label>
+               <input class="input1" type="text" id="fname" name="firstname" maxlength="30" required>
+               <div class="fnameError" id="fnameError">Enter a valid first name</div>
+            </div>
+            <br>
+            <div>
+               <label for="lname" class="form_title">Last Name:</label>
+               <input class="input2" type="text" id="lname" name="lastname" maxlength="30" required>
+               <div class="lnameError" id="lnameError">Enter a valid last name</div>
+            </div>
+            <br>
+            <div>
+               <label for="emailadd" class="form_title">Email Address:</label>
+               <input class="input3" type="email" id="emailadd" name="emailaddress" maxlength="30" required>
+               <div class="emailaddError" id="emailaddError">Enter a valid email address</div>
+            </div>
+            <br>
+            <div>
+               <!-- <label for="custfeedback" class="form_title">Add a message here!</label> -->
+               <br>
+               <textarea class="text1" name="customerfeedback" id="custfeedback" rows="8" cols="30" placeholder="Enter message here.." required></textarea>
+            </div>
+            <br>
+            <div class="submitButton">
+               <input type="submit" id="submit" name="completeform" value="Complete Form">
+               <label for="submit"></label>
+            </div>
+         </form>
+      </div>
+      <!-- End of Contact Form -->
+      <!-- <div class="footerImg">
+         <img src="media/images/thankyou.jpg" alt="thank you" width="600" height="400">
+      </div> -->
+      <script src="js/js.js"></script>
+   </body>
+</html>
