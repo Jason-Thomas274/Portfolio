@@ -15,6 +15,7 @@ JavaScript
 # File structure
 portfolio/
 |── react-app
+│   └── components
 │
 ├── about.html
 ├── contact.html

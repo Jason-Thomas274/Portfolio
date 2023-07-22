@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-// Component for the Contact page
+// Contact component
 function Contact() {
   // Handle form submission
   const handleSubmit = (event) => {
