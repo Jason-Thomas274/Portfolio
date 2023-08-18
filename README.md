@@ -9,7 +9,5 @@ HTML5
 CSS
 JavaScript
 
-# Backend
-
-# Changes
+# Updates
 Transitioned to React framework, removed tailwinds integration
